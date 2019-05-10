@@ -1,16 +1,15 @@
 body{
   text-align: center;
-  font-family: Arial;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 
 
 #main{
-  margin:30px auto;
-  padding:15px;
-  border:0px solid;
+  margin:30px 0px ;
+  padding:10px;
   border-radius:5px;
-  background:#eee;
+  background:#DDD;
 }
 
 #title h3{
@@ -18,19 +17,20 @@ body{
 }
 
 #img-div{
-    background-color: white;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-top: 5px;
+    background-color: #eee;
+    padding: 5px;
 }
 
 #image {
-  max-width:80%;
-  height: auto;
+  max-width:100%;
   text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#img-caption{
+  margin: 5px auto;
 }
 
 a {
@@ -39,6 +39,17 @@ a {
   font-weight: bold;
 }
 
-#tribute-infos h3{
-  text-align: left;
+#bio{
+  margin-top:50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:1000px;
+  text-align: justify;
+  padding: auto;
+}
+
+#bio q{
+  margin:35px auto;
+  display:block;
+  text-align: center;
 }
